@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titular del Periódico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .section h3 {
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .section p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Últimas Noticias del Diario Ejemplo</h1>
+
+    <div class="section">
+        <h2>Noticias Políticas</h2>
+        <h3>Nuevo Acuerdo Internacional</h3>
+        <p>El gobierno ha firmado un nuevo acuerdo internacional con el objetivo de fortalecer las relaciones económicas y políticas con los países vecinos. Este acuerdo promete traer numerosos beneficios económicos y oportunidades de desarrollo.</p>
+        
+        <h3>Reforma Electoral Propuesta</h3>
+        <p>El parlamento ha presentado una propuesta de reforma electoral que busca modernizar el sistema de votación y garantizar una mayor transparencia en el proceso electoral. La propuesta ha sido bien recibida por varios sectores políticos.</p>
+    </div>
+
+    <div class="section">
+        <h2>Noticias Deportivas</h2>
+        <h3>Campeonato Nacional de Fútbol</h3>
+        <p>El equipo local se coronó campeón en el torneo nacional de fútbol tras una emocionante final que terminó en penales. Los aficionados celebraron la victoria con gran entusiasmo en las calles de la ciudad.</p>
+        
+        <h3>Torneo Internacional de Tenis</h3>
+        <p>El torneo internacional de tenis ha comenzado con la participación de los mejores jugadores del mundo. El evento se llevará a cabo durante una semana y se espera una gran asistencia de espectadores.</p>
+    </div>
+</body>
+</html>

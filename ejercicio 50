@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana con Frames Verticales</title>
+    <style>
+        /* Ocultar bordes de los frames */
+        frame {
+            border: none;
+        }
+
+        /* Desactivar la capacidad de redimensionar los frames */
+        frame.resizable {
+            resize: none;
+        }
+    </style>
+</head>
+<frameset cols="20%, 80%">
+    <frame src="frame1.html" name="frame1" class="resizable">
+    <frame src="frame2.html" name="frame2">
+    <noframes>
+        <body>
+            <p>Tu navegador no soporta frames.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>

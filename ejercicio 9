@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .image-container {
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        .image-container h2 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería de Imágenes</h1>
+
+    <div class="image-container">
+        <img src="foto2.jpg" alt="Descripción de la foto 2">
+        <h2>Título de la Imagen 2</h2>
+    </div>
+
+    <div class="image-container">
+        <img src="foto3.jpg" alt="Descripción de la foto 3">
+        <h2>Título de la Imagen 3</h2>
+    </div>
+</body>
+</html>

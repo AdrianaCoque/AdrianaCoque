@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de tu Página - Descripción de la Página</title>
+    <meta name="author" content="Tu Nombre">
+    <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3">
+    <meta name="description" content="Descripción breve de tu página">
+    <meta name="copyright" content="Copyright ©">
+</head>
+<body>
+    <h1>Bienvenido a Mi Página</h1>
+    <p>Contenido de tu página aquí...</p>
+</body>
+</html>

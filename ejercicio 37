@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Carga de Foto</title>
+</head>
+<body>
+    <h1>Formulario de Carga de Foto</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="foto">Seleccionar Foto:</label><br>
+        <input type="file" id="foto" name="foto" accept="image/*" required><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

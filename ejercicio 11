@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces a Blogs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .section ul li a {
+            color: #1a0dab;
+            text-decoration: none;
+        }
+        .section ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enlaces a Blogs</h1>
+
+    <div class="section">
+        <h2>Hacer la apertura en otra pestaña</h2>
+        <ul>
+            <li><a href="https://blog1.com" target="_blank">Blog 1</a></li>
+            <li><a href="https://blog2.com" target="_blank">Blog 2</a></li>
+            <li><a href="https://blog3.com" target="_blank">Blog 3</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Hacer la apertura en el mismo navegador</h2>
+        <ul>
+            <li><a href="https://blog1.com">Blog 1</a></li>
+            <li><a href="https://blog2.com">Blog 2</a></li>
+            <li><a href="https://blog3.com">Blog 3</a></li>
+        </ul>
+    </div>
+</body>
+</html>

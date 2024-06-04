@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias del Día</title>
+</head>
+<body>
+    <h1>Noticias del Día</h1>
+    <nav>
+        <a href="noticias.html#noticia1">Noticia 1</a>
+        <a href="noticias.html#noticia2">Noticia 2</a>
+        <a href="noticias.html#noticia3">Noticia 3</a>
+        <!-- Agrega más enlaces según sea necesario -->
+    </nav>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+</head>
+<body>
+    <h1>Noticias</h1>
+    <div id="noticia1">
+        <h2>Noticia 1</h2>
+        <p>Contenido de la Noticia 1...</p>
+    </div>
+    <div id="noticia2">
+        <h2>Noticia 2</h2>
+        <p>Contenido de la Noticia 2...</p>
+    </div>
+    <div id="noticia3">
+        <h2>Noticia 3</h2>
+        <p>Contenido de la Noticia 3...</p>
+    </div>
+    <!-- Agrega más anclas según sea necesario -->
+</body>
+</html>

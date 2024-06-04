@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Campo Oculto</title>
+</head>
+<body>
+    <h1>Formulario con Campo Oculto</h1>
+    <form action="#" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <!-- Campo oculto para almacenar una hora cualquiera -->
+        <input type="hidden" id="hora" name="hora" value="13:30">
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

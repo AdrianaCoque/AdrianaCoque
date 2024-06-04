@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Tabla</title>
+</head>
+<body>
+    <!-- 
+    Datos de la tabla (solo para desarrollador):
+    - La tabla muestra información sobre productos.
+    - La primera columna contiene los nombres de los productos.
+    - La segunda columna contiene los precios de los productos.
+    - Se incluyen tres filas de datos.
+    -->
+
+    <h1>Tabla de Productos</h1>
+    <table border="1">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Producto A</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>Producto B</td>
+            <td>$15</td>
+        </tr>
+        <tr>
+            <td>Producto C</td>
+            <td>$20</td>
+        </tr>
+    </table>
+</body>
+</html>

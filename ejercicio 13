@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias del Día</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #1a0dab;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .news {
+            margin-top: 40px;
+        }
+        .news h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+        .news p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Noticias del Día</h1>
+
+    <nav>
+        <a href="#noticia1">Titular de la Noticia 1</a>
+        <a href="#noticia2">Titular de la Noticia 2</a>
+        <a href="#noticia3">Titular de la Noticia 3</a>
+        <a href="#noticia4">Titular de la Noticia 4</a>
+    </nav>
+
+    <div class="news">
+        <h2 id="noticia1">Titular de la Noticia 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum eros a erat congue, et auctor elit scelerisque.</p>
+
+        <h2 id="noticia2">Titular de la Noticia 2</h2>
+        <p>Curabitur in sapien vel tortor scelerisque tempor. Sed nec velit ligula. Integer accumsan quam vel diam aliquet, a eleifend dolor placerat.</p>
+
+        <h2 id="noticia3">Titular de la Noticia 3</h2>
+        <p>Vivamus elementum dui ut velit auctor, at aliquet nisi interdum. Phasellus facilisis nibh sit amet purus luctus, quis hendrerit lectus tincidunt.</p>
+
+        <h2 id="noticia4">Titular de la Noticia 4</h2>
+        <p>Fusce non orci quam. Cras volutpat arcu a augue consectetur, sit amet ullamcorper turpis varius. Sed vitae semper est, ut dapibus nisi.</p>
+    </div>
+</body>
+</html>

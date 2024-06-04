@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguajes de Programación y Sitios de Referencia</title>
+</head>
+<body>
+    <h1>Lenguajes de Programación y Sitios de Referencia</h1>
+    
+    <h2>Lenguajes de Programación</h2>
+    <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C++</li>
+    </ul>
+    
+    <h2>Sitios de Referencia</h2>
+    <ol>
+        <li><a href="https://www.python.org/">Python.org</a></li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">Mozilla Developer Network (JavaScript)</a></li>
+        <li><a href="https://www.oracle.com/java/">Oracle Java</a></li>
+        <li><a href="https://isocpp.org/">ISO C++</a></li>
+    </ol>
+</body>
+</html>

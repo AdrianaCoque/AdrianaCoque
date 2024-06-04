@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección Múltiple de Colores</title>
+</head>
+<body>
+    <h1>Selección Múltiple de Colores</h1>
+    <form action="#" method="POST">
+        <label for="colores">Selecciona uno o varios colores:</label><br>
+        <select id="colores" name="colores[]" multiple size="5">
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+            <option value="amarillo">Amarillo</option>
+            <option value="naranja">Naranja</option>
+            <option value="rosa">Rosa</option>
+            <!-- Agrega más opciones de colores según sea necesario -->
+        </select><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

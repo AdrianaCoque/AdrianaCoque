@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódicos por País</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Periódicos por País</h1>
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Periódico</th>
+            <th>Nombre de Dominio</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Estados Unidos</td>
+            <td>The New York Times</td>
+            <td>www.nytimes.com</td>
+        </tr>
+        <tr>
+            <td>The Washington Post</td>
+            <td>www.washingtonpost.com</td>
+        </tr>
+        <tr>
+            <td>Reino Unido</td>
+            <td>The Guardian</td>
+            <td>www.theguardian.com</td>
+        </tr>
+        <tr>
+            <td>Reino Unido</td>
+            <td>The Times</td>
+            <td>www.thetimes.co.uk</td>
+        </tr>
+        <!-- Agrega más filas según sea necesario -->
+    </table>
+</body>
+</html>

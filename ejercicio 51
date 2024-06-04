@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Frames Anidados</title>
+</head>
+<frameset cols="20%, 80%">
+    <frame src="frame1.html" name="frame1">
+    <frameset rows="50%, 50%">
+        <frame src="frame2.html" name="frame2">
+        <frame src="frame3.html" name="frame3">
+    </frameset>
+    <noframes>
+        <body>
+            <p>Tu navegador no soporta frames.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>

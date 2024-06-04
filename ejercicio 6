@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definiciones de Palabras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .definition {
+            margin-bottom: 20px;
+        }
+        .definition strong {
+            font-size: 1.2em;
+        }
+        .definition em {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Definiciones de Palabras</h1>
+
+    <div class="definition">
+        <p><strong>Resiliencia:</strong> Capacidad de una persona para <em>superar circunstancias traumáticas</em> como la muerte de un ser querido, un accidente, etc.</p>
+    </div>
+
+    <div class="definition">
+        <p><strong>Innovación:</strong> Acción de <em>introducir novedades</em> en un ámbito, ya sea tecnológico, empresarial, educativo, etc., con el fin de mejorar procesos y resultados.</p>
+    </div>
+
+    <div class="definition">
+        <p><strong>Empatía:</strong> Capacidad de ponerse en el lugar de otra persona y <em>comprender sus emociones y sentimientos</em> de manera objetiva y racional.</p>
+    </div>
+</body>
+</html>

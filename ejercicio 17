@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definiciones de Lenguajes de Programación</title>
+</head>
+<body>
+    <h1>Definiciones de Lenguajes de Programación</h1>
+    <dl>
+        <dt>Python</dt>
+        <dd>Python es un lenguaje de programación interpretado y de alto nivel, conocido por su sintaxis clara y legible. Es ampliamente utilizado en desarrollo web, ciencia de datos, inteligencia artificial y muchas otras áreas.</dd>
+        
+        <dt>JavaScript</dt>
+        <dd>JavaScript es un lenguaje de programación de alto nivel, interpretado por el navegador web, utilizado principalmente para agregar interactividad a las páginas web. Es esencial para el desarrollo front-end y cada vez más importante en el back-end.</dd>
+        
+        <dt>Java</dt>
+        <dd>Java es un lenguaje de programación de propósito general, conocido por su portabilidad, robustez y seguridad. Es ampliamente utilizado en el desarrollo de aplicaciones empresariales, aplicaciones móviles y en la creación de aplicaciones de escritorio.</dd>
+        
+        <dt>C++</dt>
+        <dd>C++ es un lenguaje de programación de propósito general que extiende el lenguaje de programación C con características de programación orientada a objetos. Es ampliamente utilizado en el desarrollo de sistemas operativos, juegos, aplicaciones de alto rendimiento y más.</dd>
+    </dl>
+</body>
+</html>

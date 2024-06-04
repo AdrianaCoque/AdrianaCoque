@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        .info-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="info-container">
+        <h1>Información Personal</h1>
+        <p><strong>Estudios:</strong> Licenciatura en Ciencias de la Computación, Universidad de Ejemplo. Graduado con honores en 2022. Cursos adicionales en desarrollo web, inteligencia artificial y seguridad informática.</p>
+        <p><strong>Nombre:</strong> Juan Pérez<br>
+           <strong>Email:</strong> juan.perez@example.com</p>
+    </div>
+</body>
+</html>

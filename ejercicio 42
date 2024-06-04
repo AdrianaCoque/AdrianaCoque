@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Controles de Radio</title>
+</head>
+<body>
+    <h1>Formulario de Controles de Radio</h1>
+    <form action="#" method="POST">
+        <input type="radio" id="ninos" name="grupo" value="ninos" disabled>
+        <label for="ninos">Niños</label><br>
+        
+        <input type="radio" id="adolescentes" name="grupo" value="adolescentes">
+        <label for="adolescentes">Adolescentes</label><br>
+        
+        <input type="radio" id="mayores" name="grupo" value="mayores">
+        <label for="mayores">Mayores</label><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

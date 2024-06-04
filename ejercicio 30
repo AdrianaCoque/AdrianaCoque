@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Selección de Lenguajes de Programación</title>
+</head>
+<body>
+    <h1>Formulario de Selección de Lenguajes de Programación</h1>
+    <form action="#" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label>Lenguajes de Programación:</label><br>
+        <input type="checkbox" id="java" name="java">
+        <label for="java">Java</label><br>
+        
+        <input type="checkbox" id="python" name="python">
+        <label for="python">Python</label><br>
+        
+        <input type="checkbox" id="javascript" name="javascript">
+        <label for="javascript">JavaScript</label><br>
+        
+        <input type="checkbox" id="cpp" name="cpp">
+        <label for="cpp">C++</label><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    <a href="#">Salir</a>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Frutas y Verduras</title>
+</head>
+<body>
+    <h1>Selección de Frutas y Verduras</h1>
+    <form action="#" method="POST">
+        <label for="productos">Selecciona una fruta o verdura:</label><br>
+        <select id="productos" name="productos">
+            <optgroup label="Frutas">
+                <option value="manzana">Manzana</option>
+                <option value="banana">Banana</option>
+                <option value="naranja">Naranja</option>
+                <option value="uva">Uva</option>
+            </optgroup>
+            <optgroup label="Verduras">
+                <option value="zanahoria">Zanahoria</option>
+                <option value="lechuga">Lechuga</option>
+                <option value="tomate">Tomate</option>
+                <option value="pimiento">Pimiento</option>
+            </optgroup>
+        </select><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

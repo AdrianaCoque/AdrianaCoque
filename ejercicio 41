@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Matriz de Texto</title>
+</head>
+<body>
+    <h1>Formulario de Matriz de Texto</h1>
+    <form action="#" method="POST">
+        <label for="1-1">Fila 1, Columna 1:</label>
+        <input type="text" id="1-1" name="1-1" tabindex="1"><br>
+        
+        <label for="1-2">Fila 1, Columna 2:</label>
+        <input type="text" id="1-2" name="1-2" tabindex="2"><br>
+        
+        <label for="1-3">Fila 1, Columna 3:</label>
+        <input type="text" id="1-3" name="1-3" tabindex="3"><br>
+        
+        <label for="2-1">Fila 2, Columna 1:</label>
+        <input type="text" id="2-1" name="2-1" tabindex="4"><br>
+        
+        <label for="2-2">Fila 2, Columna 2:</label>
+        <input type="text" id="2-2" name="2-2" tabindex="5"><br>
+        
+        <label for="2-3">Fila 2, Columna 3:</label>
+        <input type="text" id="2-3" name="2-3" tabindex="6"><br>
+        
+        <label for="3-1">Fila 3, Columna 1:</label>
+        <input type="text" id="3-1" name="3-1" tabindex="7"><br>
+        
+        <label for="3-2">Fila 3, Columna 2:</label>
+        <input type="text" id="3-2" name="3-2" tabindex="8"><br>
+        
+        <label for="3-3">Fila 3, Columna 3:</label>
+        <input type="text" id="3-3" name="3-3" tabindex="9"><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+
