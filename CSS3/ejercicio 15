@@ -1,0 +1,11 @@
+.titulosecundario {
+  border-top: 2px solid #ccc; /* Borde superior de 2px de grosor, sólido y color gris claro */
+  border-bottom: 2px solid #ccc; /* Borde inferior de 2px de grosor, sólido y color gris claro */
+  border-left: 0; /* Borde izquierdo sin grosor */
+  border-right: 0; /* Borde derecho sin grosor */
+  /* Otros estilos opcionales */
+  padding: 10px; /* Espacio interno de 10px */
+  font-weight: bold; /* Texto en negrita */
+  background-color: #f9f9f9; /* Color de fondo */
+  color: #333; /* Color del texto */
+}

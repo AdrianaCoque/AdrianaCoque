@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase de Título con Padding</title>
+    <style>
+        .titulo {
+            padding: 10px 20px; /* 10px arriba y abajo, 20px izquierda y derecha */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Texto del Título</h1>
+</body>
+</html>

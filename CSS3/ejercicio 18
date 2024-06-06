@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de Lenguajes de Programación</title>
+    <style>
+        .estructurados {
+            color: blue; /* Color azul para los lenguajes estructurados */
+        }
+        .orientados {
+            color: green; /* Color verde para los lenguajes orientados a objetos */
+        }
+    </style>
+</head>
+<body>
+    <h2>Lenguajes de Programación Estructurados</h2>
+    <ul cla
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Propiedad list-style-position</title>
+        <style>
+            .inside {
+                list-style-position: inside; /* Marcadores dentro del área del contenido */
+            }
+            .outside {
+                list-style-position: outside; /* Marcadores fuera del área del contenido */
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Lista con list-style-position: inside</h2>
+        <ul class="inside">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+    
+        <h2>Lista con list-style-position: outside</h2>
+        <ul class="outside">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+    </body>
+    </html>
+    

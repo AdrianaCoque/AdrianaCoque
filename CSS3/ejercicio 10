@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos para textos en cursiva dentro de encabezados</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            color: #333;
+        }
+        h1 em {
+            color: #dddddd; /* Gris claro */
+        }
+        h2 em {
+            color: #cccccc; /* Gris */
+        }
+        h3 em {
+            color: #bbbbbb; /* Gris */
+        }
+        h4 em {
+            color: #aaaaaa; /* Gris */
+        }
+        h5 em {
+            color: #999999; /* Gris oscuro */
+        }
+        h6 em {
+            color: #888888; /* Gris más oscuro */
+        }
+    </style>
+</head>
+<body>
+    <h1>Este es un título h1 con <em>texto en cursiva</em></h1>
+    <h2>Este es un título h2 con <em>texto en cursiva</em></h2>
+    <h3>Este es un título h3 con <em>texto en cursiva</em></h3>
+    <h4>Este es un título h4 con <em>texto en cursiva</em></h4>
+    <h5>Este es un título h5 con <em>texto en cursiva</em></h5>
+    <h6>Este es un título h6 con <em>texto en cursiva</em></h6>
+    <p>Este es un párrafo de ejemplo que sigue las reglas del estilo definido para el cuerpo del documento.</p>
+</body>
+</html>

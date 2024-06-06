@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos para encabezados</title>
+    <style>
+        h1 {
+            letter-spacing: 3px; /* Espaciado entre letras mayor */
+            word-spacing: 10px;  /* Espaciado entre palabras mayor */
+            text-transform: uppercase; /* Texto en mayúsculas */
+        }
+        h2 {
+            letter-spacing: 2px; /* Espaciado entre letras medio */
+            word-spacing: 7px;  /* Espaciado entre palabras medio */
+            text-transform: uppercase; /* Texto en mayúsculas */
+        }
+        h3 {
+            letter-spacing: 1px; /* Espaciado entre letras menor */
+            word-spacing: 5px;  /* Espaciado entre palabras menor */
+            text-transform: uppercase; /* Texto en mayúsculas */
+        }
+    </style>
+</head>
+<body>
+    <h1>Este es un encabezado h1</h1>
+    <h2>Este es un encabezado h2</h2>
+    <h3>Este es un encabezado h3</h3>
+</body>
+</html>

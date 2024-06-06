@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de background-attachment</title>
+    <style>
+        body {
+            background-image: url(fondo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; /* Ajusta la imagen de fondo para que cubra todo el viewport */
+            font-family: Arial, sans-serif;
+            margin: 0; /* Elimina los márgenes por defecto del body */
+        }
+
+        .scroll {
+            background-attachment: scroll; /* La imagen de fondo se desplaza junto con el contenido */
+        }
+
+        .fixed {
+            background-attachment: fixed; /* La imagen de fondo se mantiene fija en su posición mientras el contenido se desplaza */
+        }
+
+        .contenido {
+            height: 2000px; /* Altura suficiente para permitir el scroll */
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll contenido">
+        <h1>Contenido con background-attachment: scroll</h1>
+        <p>Texto de ejemplo que llena la página y permite hacer scroll.</p>
+    </div>
+
+    <div class="fixed contenido">
+        <h1>Contenido con background-attachment: fixed</h1>
+        <p>Texto de ejemplo que llena la página y no desplaza la imagen de fondo.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Página Web</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            font-family: "Times New Roman", Times, serif;
+            color: #444;
+            font-size: 36px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            word-spacing: 4px;
+            text-align: center;
+            background-color: #e0e0e0;
+            padding: 10px;
+        }
+        h2 {
+            font-family: Courier, monospace;
+            color: #555;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            word-spacing: 3px;
+            text-align: left;
+            background-color: #d0d0d0;
+            padding: 8px;
+        }
+        p {
+            font-family: Arial, sans-serif;
+            color: #666;
+            font-size: 16px;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenidos a Mi Página Web</h1>
+    <h2>Introducción</h2>
+    <p>Este es un párrafo de ejemplo que se muestra en la página web. Utiliza la fuente Arial y está alineado justificado para mejorar la legibilidad del texto. El color del texto es un gris medio, lo que hace que sea fácil de leer sobre un fondo claro.</p>
+    <p>Otro párrafo de ejemplo. Este texto también sigue las mismas reglas de estilo, lo que asegura una apariencia consistente en toda la página. Además, el espaciado entre letras y palabras en los encabezados ayuda a que el contenido se vea más ordenado y estructurado.</p>
+    <p>La elección de colores y fuentes busca un equilibrio entre estética y funcionalidad, garantizando que la información sea clara y accesible para todos los usuarios.</p>
+</body>
+</html>

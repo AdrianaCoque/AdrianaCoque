@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatos Reducidos para la Propiedad Font</title>
+    <style>
+        /* Formato reducido para h1 */
+        h1 {
+            font: bold 24px Arial, sans-serif; /* Negrita, tamaño 24px, fuente Arial o sans-serif */
+        }
+
+        /* Formato reducido para h2 */
+        h2 {
+            font: italic 20px Georgia, serif; /* Cursiva, tamaño 20px, fuente Georgia o serif */
+        }
+
+        /* Formato reducido para h3 */
+        h3 {
+            font: normal 16px Verdana, sans-serif; /* Normal, tamaño 16px, fuente Verdana o sans-serif */
+        }
+    </style>
+</head>
+<body>
+    <h1>Título h1: Formato Reducido</h1>
+    <h2>Título h2: Formato Reducido</h2>
+    <h3>Título h3: Formato Reducido</h3>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Estilos con Clases</title>
+    <style>
+        .subrayado {
+            color: #00aa00; /* Verde */
+            text-decoration: underline; /* Subrayado */
+        }
+        .tachado {
+            color: #00aa00; /* Verde */
+            text-decoration: line-through; /* Tachado */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="subrayado">Título subrayado</h1>
+    <p>
+        Este es un párrafo de ejemplo que contiene algunas palabras <span class="subrayado">subrayadas</span> y otras <span class="tachado">tachadas</span>.
+    </p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas y Respuestas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <p class="pregunta">¿Cuál es la capital de Francia?</p>
+    <p class="respuesta">La capital de Francia es París.</p>
+
+    <p class="pregunta">¿Cuál es el resultado de 2 + 2?</p>
+    <p class="respuesta">El resultado de 2 + 2 es 4.</p>
+
+    <p class="pregunta">¿Cuál es el animal más grande del mundo?</p>
+    <p class="respuesta">El animal más grande del mundo es la ballena azul.</p>
+</body>
+</html>
+
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezados con Estilos de Borde</title>
+    <style>
+        /* Estilos de los encabezados */
+        h1 {
+            border: 2px solid #0000ff;
+            padding: 10px;
+            background-color: #f0f8ff;
+            color: #000;
+        }
+
+        h2 {
+            border: 2px dashed #0000ff;
+            padding: 8px;
+            background-color: #e6e6fa;
+            color: #000;
+        }
+
+        h3 {
+            border: 2px dotted #0000ff;
+            padding: 6px;
+            background-color: #e0ffff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Encabezado h1 con borde sólido</h1>
+    <h2>Encabezado h2 con borde disc

@@ -1,0 +1,71 @@
+.pregunta {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #0000aa; /* Azul */
+  }
+  
+  .respuesta {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    text-align: justify;
+    color: #555555; /* Gris */
+  }
+  #cabecera {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  #cuerpo {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  #pie {
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .titulosecundario {
+    border-top: 2px solid #ccc; /* Borde superior de 2px de grosor, sólido y color gris claro */
+    border-bottom: 2px solid #ccc; /* Borde inferior de 2px de grosor, sólido y color gris claro */
+    border-left: 0; /* Borde izquierdo sin grosor */
+    border-right: 0; /* Borde derecho sin grosor */
+    /* Otros estilos opcionales */
+    padding: 10px; /* Espacio interno de 10px */
+    font-weight: bold; /* Texto en negrita */
+    background-color: #f9f9f9; /* Color de fondo */
+    color: #333; /* Color del texto */
+  }
+  h1 {
+    border: 2px solid #0000ff; /* Borde sólido de 2px de grosor y color azul */
+    padding: 10px; /* Espacio interno de 10px */
+    background-color: #f0f8ff; /* Color de fondo */
+    color: #000; /* Color del texto */
+  }
+  
+  h2 {
+    border: 2px dashed #0000ff; /* Borde discontinuo de 2px de grosor y color azul */
+    padding: 8px; /* Espacio interno de 8px */
+    background-color: #e6e6fa; /* Color de fondo */
+    color: #000; /* Color del texto */
+  }
+  
+  h3 {
+    border: 2px dotted #0000ff; /* Borde punteado de 2px de grosor y color azul */
+    padding: 6px; /* Espacio interno de 6px */
+    background-color: #e0ffff; /* Color de fondo */
+    color: #000; /* Color del texto */
+  }
+  .titulo {
+    padding: 10px 20px; /* 10px arriba y abajo, 20px izquierda y derecha */
+  }
+  h1, h2 {
+    margin-top: 5px; /* Margen de 5px en la parte superior */
+    margin-bottom: 5px; /* Margen de 5px en la parte inferior */
+  }
+  
+  

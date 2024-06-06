@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Estilos con ID</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Esto es la cabecera</h1>
+        <p>Texto de ejemplo para la cabecera.</p>
+    </div>
+
+    <div id="cuerpo">
+        <h2>Esto es el cuerpo</h2>
+        <p>Texto de ejemplo para el cuerpo.</p>
+    </div>
+
+    <div id="pie">
+        <h3>Esto es el pie de página</h3>
+        <p>Texto de ejemplo para el pie de página.</p>
+    </div>
+</body>
+</html>

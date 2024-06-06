@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos para encabezados</title>
+    <style>
+        h1 {
+            color: red;
+            background-color: yellow;
+            font-size: 40px;
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: blue;
+            background-color: lightgray;
+            font-size: 30px;
+            font-family: "Arial Black", sans-serif;
+        }
+        h3 {
+            color: green;
+            background-color: lightblue;
+            font-size: 25px;
+            font-family: "Arial Narrow", sans-serif;
+        }
+        h4 {
+            color: purple;
+            background-color: pink;
+            font-size: 20px;
+        }
+        h5 {
+            color: orange;
+            background-color: lightgreen;
+            font-size: 15px;
+        }
+        h6 {
+            color: brown;
+            background-color: lightcoral;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Este es un encabezado h1</h1>
+    <h2>Este es un encabezado h2</h2>
+    <h3>Este es un encabezado h3</h3>
+    <h4>Este es un encabezado h4</h4>
+    <h5>Este es un encabezado h5</h5>
+    <h6>Este es un encabezado h6</h6>
+</body>
+</html>
