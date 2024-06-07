@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Resueltos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Problemas Resueltos</h1>
+
+    <!-- Problema 1: Perímetro de un cuadrado -->
+    <div class="section">
+        <h2>Problema 1: Perímetro de un Cuadrado</h2>
+        <form id="squareForm">
+            <label for="side">Lado del cuadrado:</label>
+            <input type="number" id="side" name="side" required><br><br>
+            <button type="submit">Calcular Perímetro</button>
+        </form>
+        <div id="squareResult" class="result"></div>
+    </div>
+
+    <!-- Problema 2: Suma y producto de cuatro números -->
+    <div class="section">
+        <h2>Problema 2: Suma y Producto de Cuatro Números</h2>
+        <form id="fourNumbersForm">
+            <label for="num1">Número 1:</label>
+            <input type="number" id="num1" name="num1" required><br><br>
+            <label for="num2">Número 2:</label>
+            <input type="number" id="num2" name="num2" required><br><br>
+            <label for="num3">Número 3:</label>
+            <input type="number" id="num3" name="num3" required><br><br>
+            <label for="num4">Número 4:</label>
+            <input type="number" id="num4" name="num4" required><br><br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="fourNumbersResult" class="result"></div>
+    </div>
+
+    <!-- Problema 3: Suma y producto de cuatro valores -->
+    <div class="section">
+        <h2>Problema 3: Suma y Producto de Cuatro Valores</h2>
+        <form id="sumProductForm">
+            <label for="val1">Valor 1:</label>
+            <input type="number" id="val1" name="val1" required><br><br>
+            <label for="val2">Valor 2:</label>
+            <input type="number" id="val2" name="val2" required><br><br>
+            <label for="val3">Valor 3:</label>
+            <input type="number" id="val3" name="val3" required><br><br>
+            <label for="val4">Valor 4:</label>
+            <input type="number" id="val4" name="val4" required><br><br>
+            <button type="submit">Calcular Suma y Producto</button>
+        </form>
+        <div id="sumProductResult" class="result"></div>
+    </div>
+
+    <!-- Problema 4: Precio total de compra -->
+    <div class="section">
+        <h2>Problema 4: Precio Total de Compra</h2>
+        <form id="purchaseForm">
+            <label for="price">Precio del artículo:</label>
+            <input type="number" id="price" name="price" required><br><br>
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" required><br><br>
+            <button type="submit">Calcular Total</button>
+        </form>
+        <div id="purchaseResult" class="result"></div>
+    </div>
+
+    <script>
+        // Problema 1: Perímetro de un Cuadrado
+        document.getElementById('squareForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var side = document.getElementById('side').value;
+            var perimeter = side * 4;
+            document.getElementById('squareResult').innerHTML = "El perímetro del cuadrado es: " + perimeter;
+        });
+
+        // Problema 2: Suma y Producto de Cuatro Números
+        document.getElementById('fourNumbersForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var num3 = parseFloat(document.getElementById('num3').value);
+            var num4 = parseFloat(document.getElementById('num4').value);
+            var suma = num1 + num2;
+            var producto = num3 * num4;
+            document.getElementById('fourNumbersResult').innerHTML = "Suma de los dos primeros: " + suma + "<br>Producto del tercero y cuarto: " + producto;
+        });
+
+        // Problema 3: Suma y Producto de Cuatro Valores
+        document.getElementById('sumProductForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var val1 = parseFloat(document.getElementById('val1').value);
+            var val2 = parseFloat(document.getElementById('val2').value);
+            var val3 = parseFloat(document.getElementById('val3').value);
+            var val4 = parseFloat(document.getElementById('val4').value);
+            var suma = val1 + val2 + val3 + val4;
+            var producto = val1 * val2 * val3 * val4;
+            document.getElementById('sumProductResult').innerHTML = "Suma de los cuatro valores: " + suma + "<br>Producto de los cuatro valores: " + producto;
+        });
+
+        // Problema 4: Precio Total de Compra
+        document.getElementById('purchaseForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var price = parseInt(document.getElementById('price').value);
+            var quantity = parseInt(document.getElementById('quantity').value);
+            var total = price * quantity;
+            document.getElementById('purchaseResult').innerHTML = "El total a pagar es: " + total;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Nombre y Edad</title>
+</head>
+<body>
+    <script>
+        // Definir las variables para el nombre y la edad
+        var nombre = "Juan Pérez";
+        var edad = 30;
+        
+        // Escribir el nombre y la edad en la página HTML
+        document.write("Nombre: " + nombre);
+        document.write('<br>'); // Salto de línea
+        document.write("Edad: " + edad);
+    </script>
+</body>
+</html>

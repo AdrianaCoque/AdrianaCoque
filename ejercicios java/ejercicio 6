@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Resueltos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Problemas Resueltos</h1>
+
+    <!-- Problema 1: Promedio de tres notas -->
+    <div class="section">
+        <h2>Problema 1: Promedio de Tres Notas</h2>
+        <form id="gradesForm">
+            <label for="nota1">Nota 1:</label>
+            <input type="number" id="nota1" name="nota1" required><br><br>
+            <label for="nota2">Nota 2:</label>
+            <input type="number" id="nota2" name="nota2" required><br><br>
+            <label for="nota3">Nota 3:</label>
+            <input type="number" id="nota3" name="nota3" required><br><br>
+            <button type="submit">Calcular Promedio</button>
+        </form>
+        <div id="gradesResult" class="result"></div>
+    </div>
+
+    <!-- Problema 2: Verificación de claves -->
+    <div class="section">
+        <h2>Problema 2: Verificación de Claves</h2>
+        <form id="passwordForm">
+            <label for="clave1">Ingrese la clave:</label>
+            <input type="password" id="clave1" name="clave1" required><br><br>
+            <label for="clave2">Repita la clave:</label>
+            <input type="password" id="clave2" name="clave2" required><br><br>
+            <button type="submit">Verificar Claves</button>
+        </form>
+        <div id="passwordResult" class="result"></div>
+    </div>
+
+    <script>
+        // Problema 1: Promedio de Tres Notas
+        document.getElementById('gradesForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener las tres notas
+            var nota1 = parseInt(document.getElementById('nota1').value);
+            var nota2 = parseInt(document.getElementById('nota2').value);
+            var nota3 = parseInt(document.getElementById('nota3').value);
+            
+            // Calcular la suma y el promedio
+            var suma = nota1 + nota2 + nota3;
+            var promedio = suma / 3;
+            
+            // Mostrar el resultado
+            var result = "Promedio: " + promedio.toFixed(2) + "<br>";
+            if (promedio >= 7) {
+                result += "Promocionado";
+            } else {
+                result += "No Promocionado";
+            }
+            document.getElementById('gradesResult').innerHTML = result;
+        });
+
+        // Problema 2: Verificación de Claves
+        document.getElementById('passwordForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener las dos claves
+            var clave1 = document.getElementById('clave1').value;
+            var clave2 = document.getElementById('clave2').value;
+            
+            // Verificar si las claves son iguales
+            var result;
+            if (clave1 === clave2) {
+                result = "Las claves son iguales";
+            } else {
+                result = "Las claves no coinciden";
+            }
+            document.getElementById('passwordResult').innerHTML = result;
+        });
+    </script>
+</body>
+</html>

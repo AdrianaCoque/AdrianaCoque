@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Usuario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ingrese sus datos</h1>
+    <form id="userForm">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="result" class="result"></div>
+
+    <script>
+        // Seleccionar el formulario y el div para mostrar los resultados
+        var form = document.getElementById('userForm');
+        var resultDiv = document.getElementById('result');
+        
+        // Añadir un evento al formulario para manejar el envío
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Evitar que el formulario se envíe de la manera tradicional
+            
+            // Capturar los valores ingresados
+            var nombre = document.getElementById('nombre').value;
+            var email = document.getElementById('email').value;
+            
+            // Mostrar los datos en el div de resultados
+            resultDiv.innerHTML = "Nombre: " + nombre + "<br>Correo Electrónico: " + email;
+        });
+    </script>
+</body>
+</html>

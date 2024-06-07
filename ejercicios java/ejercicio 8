@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Resueltos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Problemas Resueltos</h1>
+
+    <!-- Problema 1: Determinar el mayor de tres números -->
+    <div class="section">
+        <h2>Problema 1: Determinar el Mayor de Tres Números</h2>
+        <form id="maxNumberForm">
+            <label for="num1">Número 1:</label>
+            <input type="number" id="num1" name="num1" required><br><br>
+            <label for="num2">Número 2:</label>
+            <input type="number" id="num2" name="num2" required><br><br>
+            <label for="num3">Número 3:</label>
+            <input type="number" id="num3" name="num3" required><br><br>
+            <button type="submit">Determinar Mayor</button>
+        </form>
+        <div id="maxNumberResult" class="result"></div>
+    </div>
+
+    <!-- Problema 2: Determinar si un número es positivo, cero o negativo -->
+    <div class="section">
+        <h2>Problema 2: Número Positivo, Cero o Negativo</h2>
+        <form id="signNumberForm">
+            <label for="num">Ingrese un número entero:</label>
+            <input type="number" id="num" name="num" required><br><br>
+            <button type="submit">Determinar Signo</button>
+        </form>
+        <div id="signNumberResult" class="result"></div>
+    </div>
+
+    <!-- Problema 3: Determinar el número de cifras -->
+    <div class="section">
+        <h2>Problema 3: Número de Cifras</h2>
+        <form id="digitsForm">
+            <label for="digitsNumber">Ingrese un número (1-999):</label>
+            <input type="number" id="digitsNumber" name="digitsNumber" min="1" max="999" required><br><br>
+            <button type="submit">Determinar Cifras</button>
+        </form>
+        <div id="digitsResult" class="result"></div>
+    </div>
+
+    <!-- Problema 4: Determinar el nivel de un postulante -->
+    <div class="section">
+        <h2>Problema 4: Nivel del Postulante</h2>
+        <form id="applicantForm">
+            <label for="name">Nombre del postulante:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="totalQuestions">Cantidad total de preguntas:</label>
+            <input type="number" id="totalQuestions" name="totalQuestions" min="1" required><br><br>
+            <label for="correctAnswers">Cantidad de respuestas correctas:</label>
+            <input type="number" id="correctAnswers" name="correctAnswers" min="0" required><br><br>
+            <button type="submit">Determinar Nivel</button>
+        </form>
+        <div id="applicantResult" class="result"></div>
+    </div>
+
+    <script>
+        // Problema 1: Determinar el Mayor de Tres Números
+        document.getElementById('maxNumberForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener los tres números
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var num3 = parseFloat(document.getElementById('num3').value);
+            
+            // Determinar el mayor
+            var mayor = Math.max(num1, num2, num3);
+            document.getElementById('maxNumberResult').innerHTML = "El mayor de los tres números es: " + mayor;
+        });
+
+        // Problema 2: Número Positivo, Cero o Negativo
+        document.getElementById('signNumberForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener el número
+            var num = parseInt(document.getElementById('num').value);
+            
+            // Determinar si es positivo, cero o negativo
+            var result;
+            if (num > 0) {
+                result = "El número es positivo.";
+            } else if (num === 0) {
+                result = "El número es cero.";
+            } else {
+                result = "El número es negativo.";
+            }
+            document.getElementById('signNumberResult').innerHTML = result;
+        });
+
+        // Problema 3: Número de Cifras
+        document.getElementById('digitsForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener el número
+            var digitsNumber = parseInt(document.getElementById('digitsNumber').value);
+            
+            // Determinar la cantidad de cifras
+            var result;
+            if (digitsNumber >= 1 && digitsNumber <= 9) {
+                result = "El número tiene 1 cifra.";
+            } else if (digitsNumber >= 10 && digitsNumber <= 99) {
+                result = "El número tiene 2 cifras.";
+            } else if (digitsNumber >= 100 && digitsNumber <= 999) {
+                result = "El número tiene 3 cifras.";
+            } else {
+                result = "Por favor, ingrese un número entre 1 y 999.";
+            }
+            document.getElementById('digitsResult').innerHTML = result;
+        });
+
+        // Problema 4: Nivel del Postulante
+        document.getElementById('applicantForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener los datos del postulante
+            var name = document.getElementById('name').value;
+            var totalQuestions = parseInt(document.getElementById('totalQuestions').value);
+            var correctAnswers = parseInt(document.getElementById('correctAnswers').value);
+            
+            // Calcular el porcentaje de respuestas correctas
+            var percentage = (correctAnswers / totalQuestions) * 100;
+            
+            // Determinar el nivel según el porcentaje
+            var level;
+            if (percentage >= 90) {
+                level = "Nivel superior";
+            } else if (percentage >= 75) {
+                level = "Nivel medio";
+            } else if (percentage >= 50) {
+                level = "Nivel regular";
+            } else {
+                level = "Fuera de nivel";
+            }
+            document.getElementById('applicantResult').innerHTML = name + " tiene un " + percentage.toFixed(2) + "% de respuestas correctas. Nivel: " + level;
+        });
+    </script>
+</body>
+</html>

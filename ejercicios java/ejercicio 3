@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Nombre y Sueldo de Empleado</title>
+</head>
+<body>
+    <script>
+        // Definir e inicializar la variable para el nombre del empleado
+        var nombreEmpleado = "Ana García";
+        
+        // Definir e inicializar la variable para el sueldo del empleado
+        var sueldoEmpleado = 45000;
+        
+        // Escribir el nombre del empleado en la página HTML
+        document.write("Nombre del empleado: " + nombreEmpleado);
+        document.write('<br>'); // Salto de línea
+        
+        // Escribir el sueldo del empleado en la página HTML
+        document.write("Sueldo del empleado: " + sueldoEmpleado);
+    </script>
+</body>
+</html>

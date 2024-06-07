@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Resueltos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Problemas Resueltos</h1>
+
+    <!-- Problema 1: Verificar si la fecha es Navidad -->
+    <div class="section">
+        <h2>Problema 1: Verificar si la Fecha es Navidad</h2>
+        <form id="christmasForm">
+            <label for="day">Día:</label>
+            <input type="number" id="day" name="day" min="1" max="31" required><br><br>
+            <label for="month">Mes:</label>
+            <input type="number" id="month" name="month" min="1" max="12" required><br><br>
+            <label for="year">Año:</label>
+            <input type="number" id="year" name="year" required><br><br>
+            <button type="submit">Verificar Fecha</button>
+        </form>
+        <div id="christmasResult" class="result"></div>
+    </div>
+
+    <!-- Problema 2: Operaciones con tres valores iguales -->
+    <div class="section">
+        <h2>Problema 2: Operaciones con Tres Valores Iguales</h2>
+        <form id="equalValuesForm">
+            <label for="val1">Valor 1:</label>
+            <input type="number" id="val1" name="val1" required><br><br>
+            <label for="val2">Valor 2:</label>
+            <input type="number" id="val2" name="val2" required><br><br>
+            <label for="val3">Valor 3:</label>
+            <input type="number" id="val3" name="val3" required><br><br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="equalValuesResult" class="result"></div>
+    </div>
+
+    <!-- Problema 3: Verificar si tres números son menores a 10 -->
+    <div class="section">
+        <h2>Problema 3: Todos los Números Menores a 10</h2>
+        <form id="lessThanTenForm">
+            <label for="num1">Número 1:</label>
+            <input type="number" id="num1" name="num1" required><br><br>
+            <label for="num2">Número 2:</label>
+            <input type="number" id="num2" name="num2" required><br><br>
+            <label for="num3">Número 3:</label>
+            <input type="number" id="num3" name="num3" required><br><br>
+            <button type="submit">Verificar</button>
+        </form>
+        <div id="lessThanTenResult" class="result"></div>
+    </div>
+
+    <!-- Problema 4: Determinar el cuadrante de un punto -->
+    <div class="section">
+        <h2>Problema 4: Determinar el Cuadrante de un Punto</h2>
+        <form id="quadrantForm">
+            <label for="x">Coordenada X:</label>
+            <input type="number" id="x" name="x" required><br><br>
+            <label for="y">Coordenada Y:</label>
+            <input type="number" id="y" name="y" required><br><br>
+            <button type="submit">Determinar Cuadrante</button>
+        </form>
+        <div id="quadrantResult" class="result"></div>
+    </div>
+
+    <!-- Problema 5: Calcular el sueldo de un operario con posibles aumentos -->
+    <div class="section">
+        <h2>Problema 5: Calcular Sueldo de un Operario</h2>
+        <form id="salaryForm">
+            <label for="salary">Sueldo:</label>
+            <input type="number" id="salary" name="salary" required><br><br>
+            <label for="years">Años de antigüedad:</label>
+            <input type="number" id="years" name="years" required><br><br>
+            <button type="submit">Calcular Sueldo</button>
+        </form>
+        <div id="salaryResult" class="result"></div>
+    </div>
+
+    <script>
+        // Problema 1: Verificar si la Fecha es Navidad
+        document.getElementById('christmasForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener la fecha
+            var day = parseInt(document.getElementById('day').value);
+            var month = parseInt(document.getElementById('month').value);
+            var year = parseInt(document.getElementById('year').value);
+            
+            // Verificar si es Navidad
+            var result;
+            if (day === 25 && month === 12) {
+                result = "La fecha " + day + "/" + month + "/" + year + " corresponde a Navidad.";
+            } else {
+                result = "La fecha " + day + "/" + month + "/" + year + " no corresponde a Navidad.";
+            }
+            document.getElementById('christmasResult').innerHTML = result;
+        });
+
+        // Problema 2: Operaciones con Tres Valores Iguales
+        document.getElementById('equalValuesForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener los tres valores
+            var val1 = parseFloat(document.getElementById('val1').value);
+            var val2 = parseFloat(document.getElementById('val2').value);
+            var val3 = parseFloat(document.getElementById('val3').value);
+            
+            // Verificar si todos los valores son iguales
+            var result;
+            if (val1 === val2 && val2 === val3) {
+                var suma = val1 + val2;
+                var resultado = suma * val3;
+                result = "Los valores son iguales. ((" + val1 + " + " + val2 + ") * " + val3 + ") = " + resultado;
+            } else {
+                result = "Los valores no son iguales. No se realizan operaciones.";
+            }
+            document.getElementById('equalValuesResult').innerHTML = result;
+        });
+
+        // Problema 3: Todos los Números Menores a 10
+        document.getElementById('lessThanTenForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener los tres números
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var num3 = parseFloat(document.getElementById('num3').value);
+            
+            // Verificar si todos son menores a 10
+            var result;
+            if (num1 < 10 && num2 < 10 && num3 < 10) {
+                result = "Todos los números son menores a diez.";
+            } else {
+                result = "No todos los números son menores a diez.";
+            }
+            document.getElementById('lessThanTenResult').innerHTML = result;
+        });
+
+        // Problema 4: Determinar el Cuadrante de un Punto
+        document.getElementById('quadrantForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener las coordenadas
+            var x = parseInt(document.getElementById('x').value);
+            var y = parseInt(document.getElementById('y').value);
+            
+            // Determinar el cuadrante
+            var result;
+            if (x > 0 && y > 0) {
+                result = "El punto (" + x + ", " + y + ") se encuentra en el primer cuadrante.";
+            } else if (x < 0 && y > 0) {
+                result = "El punto (" + x + ", " + y + ") se encuentra en el segundo cuadrante.";
+            } else if (x < 0 && y < 0) {
+                result = "El punto (" + x + ", " + y + ") se encuentra en el tercer cuadrante.";
+            } else if (x > 0 && y < 0) {
+                result = "El punto (" + x + ", " + y + ") se encuentra en el cuarto cuadrante.";
+            } else if (x === 0 && y !== 0) {
+                result = "El punto (" + x + ", " + y + ") se encuentra sobre el eje Y.";
+            } else if (y === 0 && x !== 0) {
+                result = "El punto (" + x + ", " + y + ") se encuentra sobre el eje X.";
+            } else {
+                result = "El punto (" + x + ", " + y + ") se encuentra en el origen.";
+            }
+            document.getElementById('quadrantResult').innerHTML = result;
+        });
+
+        // Problema 5: Calcular Sueldo de un Operario
+        document.getElementById('salaryForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Obtener el sueldo y la antigüedad
+            var salary = parseFloat(document.getElementById('salary').value);
+            var years = parseInt(document.getElementById('years').value);
+            
+            // Calcular el nuevo sueldo
+            var newSalary = salary;
+            var result;
+            if (salary < 500) {
+                if (years >= 10) {
+                    newSalary = salary * 1.20;
+                } else {
+                    newSalary = salary * 1.05;
+                }
+                result = "El nuevo sueldo es: $" + newSalary.toFixed(2);
+            } else {
+                result = "El sueldo es: $" + salary.toFixed(2);
+            }
+            document.getElementById('salaryResult').innerHTML = result;
+        });
+    </script>
+</body>
+</html>
